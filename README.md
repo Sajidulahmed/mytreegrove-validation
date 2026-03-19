@@ -1,2 +1,2 @@
 # mytreegrove-validation
-Validation file for MyTreeGrove domain  ownership
+Validation file for MyTreeGrove domain ownership
