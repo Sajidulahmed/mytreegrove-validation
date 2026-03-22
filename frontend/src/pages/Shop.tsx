@@ -32,7 +32,21 @@ const Shop = () => {
     };
     axiosClient.post("/notifications/send", { notifications: [notification] });
   };
+const handleWaterTree = () => {
+  alert("🌱 Tree watered! Growth increased by 5%");
+};
 
+const handleAddMemory = () => {
+  alert("📸 Open memory upload form");
+};
+
+const handleGrow = () => {
+  alert("✨ Using Pi to accelerate growth");
+};
+
+const handleHarvest = () => {
+  alert("🎁 You earned Pi rewards!");
+};
   return (
     <>
       <Header
