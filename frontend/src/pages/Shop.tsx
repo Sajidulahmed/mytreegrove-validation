@@ -65,7 +65,20 @@ const handleHarvest = () => {
         onClickBuy={() => orderProduct("Order Apple Pie", 0.1, { productId: "apple_pie_1" })}
         disabled={isLoading}
       />
-
+<Box sx={{ display: 'flex', gap: 2, mt: 3, flexWrap: 'wrap', p: 2 }}>
+  <Button variant="contained" onClick={handleWaterTree}>
+    Water Tree
+  </Button>
+  <Button variant="contained" onClick={handleAddMemory}>
+    Add Memory
+  </Button>
+  <Button variant="contained" onClick={handleGrow}>
+    Grow with Pi
+  </Button>
+  <Button variant="contained" onClick={handleHarvest}>
+    Harvest Pi
+  </Button>
+</Box>
       <ProductCard
         name="Lemon Meringue Pie"
         description="Order at your own risk."
